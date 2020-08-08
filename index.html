@@ -15,18 +15,37 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 50%;
     height: auto;
   }
-  body {
-    background-color: #09070f;
-  }
+body {
+	background: linear-gradient(-45deg, #1d0d33, #30068b, #23a6d5, #5406ad);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+#card{
+  background: rgba(245, 245, 245, 0.445);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
   </style>
 </head>
 <body class="container" >
     
     <div id="card" class="mt-5 jumbotron jumbotron-with-background vertical-center">
         <img src="Lojhan.svg" >
+        <br>
         <p class="display-4 mt-5 ml-4">Mobile, Web & backend developer</p>
     </div>
 
@@ -36,8 +55,12 @@
     <br>
     <a href="https://wa.me/5541997314223"><h3 class="text-light display-4">WhatsApp</h3></a>
     <a href="https://t.me/L0JHAN"><h3 class="text-light display-4">Telegram</h3></a>
-    <a href="
-    https://mail.google.com/mail/?view=cm&fs=1&to=viniciuslojhan@gmail.com"><h3 class="text-light display-4">E-mail</h3></a>
+    
+    <br>   
+    <h3 class="text-light display-4">E-mail</h3>
+    <h3 class="text-light display-5">viniciuslojhan@gmail.com</h3>
+    
+    <h3 class="text-light display-5">vinicius_lojhan@hotmail.com</h3>
 
     <h2 class="text-light display-3 mt-5">Projects</h2>
     <br>   
